@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;       
+}
+ h4,.header__logo, .footer__header{
+    font-family: 'Shrikhand';
+}
+
+::placeholder{
+    letter-spacing: 1.5px;
+    font-size: 14px;
+    color:black;
+    font-weight: 600;
+}
+h1{
+    justify-self: center;
+    text-align: center;            
+    padding: 19px;
+    font-family: 'Shrikhand';
+}
+
+h2{
+    
+    font-size: 16px;
+    align-self: flex-start;
+}
+h3{
+    font-size: 14px;
+}
+
+img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+// image de resterant//
+.head__img{
+    border-radius: 0;
+    height: 400px;
+
+}
+//******//
+
+.h1__resterant{  
+    width: 90%;
+    display: flex;  
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 10px;
+}
+
+
+span{
+    align-self: flex-start;
+    padding-left: 5px;
+    text-transform:uppercase;
+}

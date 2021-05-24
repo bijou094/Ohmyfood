@@ -1,0 +1,8 @@
+@mixin vertical-center {
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+}
+@mixin shadaw{
+    box-shadow: 1px 1px 1px 1px $colour-shaw;
+}

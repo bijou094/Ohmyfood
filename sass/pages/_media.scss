@@ -1,0 +1,114 @@
+
+
+@media screen and (min-width:768px) and (max-width:991px){
+     
+    .nav__ul{ 
+        align-self: flex-start; 
+        padding-left: 20px;
+    } 
+    
+    .contener{
+        width: 100%;     
+        height:650px;              
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;       
+        justify-content:space-around;
+        background-color: blueviolet;
+    }
+    section{
+        width: 350px; 
+            
+    }
+
+    //resterant//
+    .contener_resterant{
+        width: 100%;        
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items:center;
+    }
+    .section_resterant{
+        width: 50%;
+    }
+    span{
+        align-self: center;
+        
+    }
+   
+    .article_resterant{
+        width:320px ;
+    }
+    
+    
+}
+
+@media screen and (min-width:992px){
+    form{ 
+        display: flex;       
+        flex-direction:row; 
+        align-items: stretch;
+              
+    }
+        
+    .menu{
+        width: 70%; 
+        justify-content: flex-start;           
+                
+    }
+    nav{
+        width: 30%;
+    }
+    main{
+        width: 100%;
+    }
+    .contener{ 
+        width: 100%;         
+        flex-wrap:none;   
+        flex-direction: row;
+        justify-content:space-evenly;
+         
+    }
+    section{
+        width: 23%;      
+        height: 280px;
+       
+    }
+    h4{
+       padding-left: 40px; 
+    }
+    .footer__ul{
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        
+    }
+    //resterant//
+    .contener_resterant{
+        width: 100%;        
+        display: flex;
+        flex-direction: row;
+        flex-wrap: none;
+        justify-content: space-evenly;
+        align-items:center;
+    }
+    .section_resterant{
+        width: 33%;
+        background-color: springgreen;
+    }
+    .article_resterant{
+        width:300px;
+    }
+    span{
+        align-self: center;
+        
+    }
+}
+
+

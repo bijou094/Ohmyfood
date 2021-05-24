@@ -1,0 +1,25 @@
+footer{
+    background-color:rgb(51, 49, 49);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;    
+    &__ul{
+        padding-left: 20px;
+    }
+    &__li{
+        margin: 10px 0 10px 0;
+        list-style-type: none;
+    }
+    &__a{              
+        text-decoration: none;
+        color: white;
+    }
+}
+    
+
+
+    
+    
+    
+    
+    
