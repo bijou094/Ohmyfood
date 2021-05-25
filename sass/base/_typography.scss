@@ -67,7 +67,10 @@ span{
     text-transform:uppercase;
     
 }
-span:hover{
-    padding-bottom: 10px;
-    border-bottom: 2px solid $colour-accent;
+span::after{
+    content: "";
+    display: block;
+    width: 40px;
+    height: 2px;
+    background: $colour-accent 
 }

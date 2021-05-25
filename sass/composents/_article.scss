@@ -30,10 +30,26 @@
         font-weight: bold;
         align-self: flex-end;
         padding: 10px;
+        overflow: hidden;
     }
 }
+
+.article__p:hover ::after{
+    content: "";
+    padding: 40;
+    font-size: 40px;
+    border-radius: 0 15px 15px 0;
+    background:$colour-accent;
+    transition: color 2s ease-in;
     
 
+}   
+.article__p:hover ::before{
+    content: "...";
+    
+    
+
+}   
 
 
     
