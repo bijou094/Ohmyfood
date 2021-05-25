@@ -6,14 +6,27 @@
     margin-left: 5px;
     color: $colour-primary;
 }
-.fa-heart{  
-    width: 30px;  
-    height: 30px;
-    font-size: 20px;
-    color: black;
+.coeur-transpt{
+    color:linear-gradient($colour-secondary,$colour-primary);
+    visibility:visible;
+    font-size: 23px;
     align-self: center;
-    background-color: blue;
+    .coeur-transpt:hover{
+        visibility: hidden;
+        font-size: 23px;
+    }
 }
+.coeur-colore{
+    color: $gradient;
+    visibility:hidden;
+    font-size: 0;
+    align-self: center;
+    .coeur-colore:hover{
+        visibility: visible;
+        font-size: 23px;
+    }
+}
+
 
      
 .fa-utensils{  

@@ -6,14 +6,15 @@
     flex-direction: column;
     align-items: center;  
     justify-content:space-between;     
-    background-color:red;    
+      
     &__header{                
         width: 100%; 
         align-self: center; 
         text-align: center;                    
-        padding: 20px 0 20px 0;                             
+        padding: 20px 0 20px 0; 
         background-color:$colour-lavend;
-        }            
+        
+    }            
     &__p{
         align-self: center; 
         text-align: center;       

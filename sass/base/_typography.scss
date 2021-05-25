@@ -4,9 +4,14 @@ body{
     font-size: 14px;
     color: black;
     font-family: "Roboto", sans-serif;
-    box-sizing: border-box;       
+    box-sizing: border-box;  
+}     
+a{
+    text-decoration: none;
+    color: black;
 }
- h4,.header__logo, .footer__header{
+
+ .header__logo, .footer__header{
     font-family: 'Shrikhand';
 }
 
@@ -20,7 +25,7 @@ h1{
     justify-self: center;
     text-align: center;            
     padding: 19px;
-    font-family: 'Shrikhand';
+    
 }
 
 h2{

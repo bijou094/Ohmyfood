@@ -1,8 +1,15 @@
-footer{
-    background-color:rgb(51, 49, 49);
+.footer{
+    background-color:#363636;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;    
+    align-items: flex-start; 
+    &__header{
+        padding: 20px;
+        font-size: 25px;
+        color: white;
+
+    }
+     
     &__ul{
         padding-left: 20px;
     }

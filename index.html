@@ -21,11 +21,11 @@
                 <input class="menu__input" type="search" id="maRecherche" name="maRecherche" placeholder="Paris, Belleville">
             </div>
             <h1>Réservez le menu qui vous convient</h1>
-            <p class="menu__p">Découvrez des restaurants d'éxeption, séléctionnés par nos soins.</p>            
-            <button name="button" class="btn">Explorer nos restaurants</button>
+            <p class="menu__p">Découvrez des restaurants d'éxeption, séléctionnés par nos soins.</p>   
+            <button name="button" class="btn btn-acceuil ">Explorer nos restaurants</button>
         </div>
         
-       <nav>
+       <nav class="nav">
            <h2>Fonctionnement</h2>
            <ul class="nav__ul">
                <li class="nav__li" >
@@ -50,17 +50,23 @@
         <h2>Restaurants</h2>
         <div class="contener">
             <section >
-               <img src="images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="">
-               <article>
-                   <div class="article__titre">
-                       <h3>la palette du goût</h3>
-                       <p>ménilmontant</p>
-                    </div>
-                    <i class="far fa-heart"></i>  
-                </article>
+                <a class="resterant" href="../projet 03/gout.html">
+                    <img src="images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="">
+                    <article class="article">
+                        <div class="article__titre">
+                            <h3>la palette du goût</h3>
+                            <p>ménilmontant</p>
+                         </div>
+                         <i class="fas fa-heart coeur-colore"></i>
+                         <i class="far fa-heart etoile-transpt"></i>
+
+                    </article>
+                </a>
+               
             </section>
             <section >
-                <img  src="images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="">
+                <a class="resterant" href="../projet 03/note.html">
+                    <img  src="images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="">
                 <article class="article">
                     <div class="article__titre">
                         <h3>la note enchantée</h3>
@@ -68,19 +74,24 @@
                     </div>                   
                     <i class="far fa-heart"></i>                   
                 </article>
+                </a>                
             </section>
             <section >
-                <img  src="images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="">
+                <a class="resterant" href="../projet 03/francaise.html">
+                    <img  src="images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="">
                 <article class="article">
                     <div class="article__titre">
                        <h3>à la française</h3>
                        <p>Cité Rouge</p>
                     </div>                   
                     <i class="far fa-heart"></i>                   
-                </article>               
+                </article>     
+                </a>
+                          
             </section>
             <section>
-                <img  src="images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="">
+                <a class="resterant" href="../projet 03/delice.html">
+                    <img  src="images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="">
                 <article class="article">
                     <div class="article__titre">
                        <h3>le délice des sens</h3>
@@ -88,6 +99,8 @@
                     </div>
                     <i class="far fa-heart"></i>
                 </article>
+                </a>
+                
             </section>
         </div>  
     </main>
@@ -106,7 +119,7 @@
                 <a class="footer__a" href="">Mentions légales</a>
             </li>
             <li class="footer__li">
-                <a class="footer__a" href="">Contact</a>
+                <a class="footer__a" href="mailto:developpeur.web@gmail.com">Contact</a>
             </li>
         </ul>
     </footer>    

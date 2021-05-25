@@ -1,16 +1,21 @@
-.btn{
-    
-    width: 190px;
+.btn{    
     border: none;
     border-radius: 100em;
     color: white;
-    background-color: $colour-primary;
+    background:$gradient;
     padding: 15px;
     margin: 20px 0 30px 0;
+    &:hover{        
+        opacity: 0.5;
+    }
 }
+.btn-acceuil{
+    width: 190px;
+    
+}
+
+//   //@
 .btn-commande{
     width: 170px;
     padding: 15px;
 }
-
-
