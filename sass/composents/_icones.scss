@@ -27,24 +27,24 @@
     }
 }*/
 .fa-heart {
-    color:green;
-    background-color:black;
-    border-radius: 0%;
-    padding:.2em;
+    color:$colour-secondary;
+    background-color:white;
+   
+   
     font-size: 23px;
 }
 .fa-heart::before {
     content: "\f004";
     font-weight: bold;
-    transition:  1s ease-out;
+    transition: color 1s ease-out;
    
 }
 .fa-heart:hover::before{
-    
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+    background-color:white;
+	color:$colour-primary;
+    border: white;
 }
-}
+
 
      
 .fa-utensils{  
