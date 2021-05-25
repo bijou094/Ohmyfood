@@ -1,6 +1,5 @@
 main{ 
-    width: 100%;   
-    background-color:$colour-Honey;
+   width: 100%; 
     display: flex;
     flex-direction: column;    
     justify-content: space-between;
@@ -18,14 +17,16 @@ main{
 }
 //resterant//
 .main_resterant{
+    
+    background-color:#f3f8f6;
     border-top: 1px solid black;
     border-radius: 55px 55px 0 0;    
-    position: absolute;
+    position: relative;
     z-index: 1;
     margin-top: -50px;
 }
 .contener_resterant{
-    width: 100%;    
+    
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;

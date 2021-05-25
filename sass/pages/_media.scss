@@ -31,7 +31,7 @@
         justify-content: space-evenly;
         align-items:center;
     }
-    .section_resterant{
+    .section-resterant{
         width: 50%;
     }
     span{
@@ -98,12 +98,19 @@
         justify-content: space-evenly;
         align-items:center;
     }
-    .section_resterant{
-        width: 33%;
+    .section-resterant{
+        width: 31%;
         
     }
     .article_resterant{
-        width:300px;
+        width: 95%;
+        
+    }
+    h2{
+        font-size: 14px;
+    }
+    p{
+        font-size: 12px;
     }
     span{
         align-self: center;

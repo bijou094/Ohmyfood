@@ -14,6 +14,11 @@
 }
 //      //
 .article_resterant{
+    display: flex;  
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
     border-radius: 1em;
     padding: 15px;
     background-color:snow;
@@ -24,6 +29,7 @@
     .article__p{
         font-weight: bold;
         align-self: flex-end;
+        padding: 10px;
     }
 }
     

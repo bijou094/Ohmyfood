@@ -6,15 +6,15 @@ section{
     @include shadaw;
     
 }
-section:hover{
+.section-accueil:hover{
     z-index:1;
     transform: scale(1.1);
     transition: 0.3s;
 }
 // resterant//
-.section_resterant{
+.section-resterant{
     width: 100%;
-    height: 300px;
+    height: 350px;
     box-shadow: none;
     border-radius:none;
     display: flex;

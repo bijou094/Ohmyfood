@@ -6,7 +6,7 @@
     margin-left: 5px;
     color: $colour-primary;
 }
-.coeur-transpt{
+/*.coeur-transpt{
     color:linear-gradient($colour-secondary,$colour-primary);
     visibility:visible;
     font-size: 23px;
@@ -25,8 +25,26 @@
         visibility: visible;
         font-size: 23px;
     }
+}*/
+.fa-heart {
+    color:green;
+    background-color:black;
+    border-radius: 0%;
+    padding:.2em;
+    font-size: 23px;
 }
-
+.fa-heart::before {
+    content: "\f004";
+    font-weight: bold;
+    transition:  1s ease-out;
+   
+}
+.fa-heart:hover::before{
+    
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+}
 
      
 .fa-utensils{  
