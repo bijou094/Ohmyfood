@@ -70,13 +70,13 @@ img {
   font-size: 10px;
 }
 
-span {
+.trois-span {
   align-self: flex-start;
   padding-left: 35px;
   text-transform: uppercase;
 }
 
-span::after {
+.trois-span:hover::after {
   content: "";
   display: block;
   width: 40px;
@@ -250,7 +250,7 @@ section {
   align-items: center;
   width: 85%;
   border-radius: 1em;
-  padding: 15px;
+  padding: 5px;
   background-color: snow;
 }
 .article_resterant .article__titre {
@@ -260,20 +260,25 @@ section {
   font-weight: bold;
   align-self: flex-end;
   padding: 10px;
-  overflow: hidden;
 }
 
-.article__p:hover ::after {
-  content: "";
-  padding: 40;
-  font-size: 40px;
+.article__p:hover::after {
+  content: "";
+  width: 150px;
+  height: 150px;
+  font-size: 23px;
+  padding: 0;
+  color: #000;
   border-radius: 0 15px 15px 0;
   background: #99e2d0;
-  transition: color 2s ease-in;
+  transition: 30s ease-in-out;
+  transform: translateX(-100px);
 }
 
-.article__p:hover ::before {
+.article__p:hover::before {
   content: "...";
+  font-size: 20px;
+  transition: 30s ease-in-out;
 }
 
 .btn {

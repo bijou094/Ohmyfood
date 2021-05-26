@@ -61,13 +61,13 @@ img{
 }
 
 
-span{
+.trois-span{
     align-self: flex-start;
     padding-left: 35px;
     text-transform:uppercase;
     
 }
-span::after{
+.trois-span:hover::after{
     content: "";
     display: block;
     width: 40px;
