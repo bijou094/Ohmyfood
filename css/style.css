@@ -249,25 +249,32 @@ section {
   justify-content: space-between;
   align-items: center;
   width: 85%;
+  height: 60px;
   border-radius: 1em;
   padding: 5px;
   background-color: snow;
 }
 .article_resterant .article__titre {
   width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .article_resterant .article__p {
   font-weight: bold;
   align-self: flex-end;
   padding: 10px;
+  display: flex;
 }
 
 .article__p:hover::after {
   content: "";
-  width: 150px;
-  height: 150px;
+  font-family: "Font Awesome 5 Free";
+  width: 40px;
+  height: 70px;
+  display: block;
   font-size: 23px;
   padding: 0;
+  margin-top: 5px;
   color: #000;
   border-radius: 0 15px 15px 0;
   background: #99e2d0;
@@ -333,20 +340,16 @@ section {
     }
 }*/
 .fa-heart {
-  color: #FF79DA;
   background-color: white;
   font-size: 23px;
 }
 
-.fa-heart::before {
-  content: "";
-  font-weight: bold;
-  transition: color 1s ease-out;
-}
-
 .fa-heart:hover::before {
-  background-color: white;
-  color: #9356DC;
+  background-image: linear-gradient(#FF79DA, #9356DC);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-weight: 900;
   border: white;
 }
 

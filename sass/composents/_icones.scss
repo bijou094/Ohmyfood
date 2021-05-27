@@ -27,19 +27,17 @@
     }
 }*/
 .fa-heart {
-    color:$colour-secondary;
+    
     background-color:white;
     font-size: 23px;
 }
-.fa-heart::before {
-    content: "\f004";
-    font-weight: bold;
-    transition: color 1s ease-out;
-   
-}
+
 .fa-heart:hover::before{
-    background-color:white;
-	color:$colour-primary;
+    background-image:$gradient;
+	color:transparent;
+    background-clip:text;
+    -webkit-background-clip: text;
+    font-weight: 900;
     border: white;
 }
 

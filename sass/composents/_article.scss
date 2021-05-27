@@ -19,27 +19,34 @@
     justify-content: space-between;
     align-items: center;
     width: 85%;
+    height: 60px;
     border-radius: 1em;
     padding: 5px;
     background-color:snow;
     .article__titre{
         width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
         
     } 
     .article__p{
         font-weight: bold;
         align-self: flex-end;
         padding: 10px;
+        display: flex;
         
     }
 }
 
 .article__p:hover::after{
     content: "\f00c";
-    width: 150px;
-    height: 150px;
+    font-family: "Font Awesome 5 Free";;
+    width: 40px;
+    height: 70px;
+    display: block;
     font-size: 23px;
     padding: 0;
+    margin-top: 5px;
     color: #000;
     border-radius: 0 15px 15px 0;
     background:$colour-accent;    
