@@ -1,8 +1,13 @@
 @mixin vertical-center {
-    display: flex;    
+    display: flex; 
+    flex-direction: row;   
     align-items: center;    
-    justify-content: center;
+}
+@mixin horizontal-center {
+    display: flex;
+    flex-direction: column;     
+    align-items:center;
 }
 @mixin shadaw{
-    box-shadow: 1px 1px 1px 1px $colour-shaw;
+    box-shadow: 0px 1px 1px 1px #cdcdcd;
 }

@@ -1,37 +1,27 @@
+
+
+
 .fa-list-ul, .fa-mobile-alt{
     margin-left: 5px;
+    margin-right: 10px;
     color: gray;
 }
 .fa-store{
     margin-left: 5px;
+    margin-right: 5px;
     color: $colour-primary;
 }
-/*.coeur-transpt{
-    color:linear-gradient($colour-secondary,$colour-primary);
-    visibility:visible;
-    font-size: 23px;
-    align-self: center;
-    .coeur-transpt:hover{
-        visibility: hidden;
-        font-size: 23px;
-    }
-}
-.coeur-colore{
-    color: $gradient;
-    visibility:hidden;
-    font-size: 0;
-    align-self: center;
-    .coeur-colore:hover{
-        visibility: visible;
-        font-size: 23px;
-    }
-}*/
-.fa-heart {
-    
-    background-color:white;
-    font-size: 23px;
+.fa-map-marker-alt{
+    margin-right: 10px;
+    font-weight: 900;
+    margin-left: 5px;
+
 }
 
+.fa-heart { 
+    font-size: 23px;
+    
+}
 .fa-heart:hover::before{
     background-image:$gradient;
 	color:transparent;
@@ -57,16 +47,26 @@
 }
 .numero{
     border: 1px solid transparent;
-    border-radius: 100% ;
-    padding:12px 15px 12px 15px;
+    border-radius: 50% ;
+    padding:8px 11px 8px 11px;
     font-size: 10px;
     background-color: $colour-primary;
-    margin-left:-31px;
-    margin-right: 5px;
+    margin-left:-35px;
+    margin-right: 10px;
     text-align: center;
     color:white;
 }
+
+
 // resterant//
+.fa-check-circle{
+    opacity: 0};
+
+
+
+
+
+
 .fa-heart_resterant{    
     font-size: 23px;   
     color: black;

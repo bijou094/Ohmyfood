@@ -1,13 +1,8 @@
 .header{  
-
     width: 100%;
-    box-shadow: 0 5px 6px 0px rgba(0, 0, 0, 0.2);
-    flex-direction: row;
-    display: flex;    
-    align-items: center;    
-    justify-content: center;
-    
-    /*@mixin vertical-center; */       
+    @include vertical-center;  
+    justify-content: center;   
+    @include shadaw;
     &__logo{
         justify-self: center;
         width: 200px;
@@ -16,10 +11,11 @@
         padding: 20px;    
     }        
 }
-//         //
+// style hedear de la page resterant//
 .header{     
     &__return{
         justify-content: left ;
+        color: gray;
         padding-right: 60px;
         padding-left: 10px;
     } 

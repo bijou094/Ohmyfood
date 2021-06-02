@@ -1,0 +1,66 @@
+.article__titre2:hover{
+    .article__slider{
+    background-color:$colour-accent;    
+    width: 80px; 
+    height: 60px;
+    position:relative ;    
+    text-align:center;
+    border: 1px solid aqua;
+    border-radius:0 15px 15px 0 ;
+    transform-origin: right; 
+    animation: bilo 2000ms ease-in-out forwards; 
+    display: block;
+    transition-delay: 500ms;
+    
+    }
+    .fa-check-circle{
+           
+        text-align: center;
+        margin-top: 25px;
+        font-size: 25px;
+        border-radius: 50%;
+        background-color:$colour-accent;
+        
+        color: white;
+        color:white;
+        animation: flech 2000ms linear forwards;
+    } 
+    .article__p2{
+      
+   }
+    .article__p1{
+        
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    } 
+   
+    
+    
+} 
+   
+@keyframes flech{
+    0%{
+        transform:translateX(0) rotate(0);
+        opacity: 0;
+    }
+    100%{
+        transform:translate(-10%) rotate(2turn);
+        opacity: 1;
+    }       
+   
+}
+@keyframes bilo{
+    0% {
+        transform:scaleX(0%);
+        opacity: 0;
+    }
+    50%{
+         transform:scaleX(100%);
+        opacity: 1;
+    }
+    100%{
+        transform:scaleX(0%);
+        opacity: 1;
+    }
+}

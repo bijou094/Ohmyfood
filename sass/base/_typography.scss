@@ -1,76 +1,88 @@
+*{
+    font-family:'Roboto', sans-serif;
+}
+
 body{
     margin: 0;
     padding: 0;
     font-size: 14px;
     color: black;
-    font-family: "Roboto", sans-serif;
+    font-family:'Roboto', sans-serif;
     box-sizing: border-box;  
 }     
 a{
     text-decoration: none;
     color: black;
 }
-
- .header__logo, .footer__header{
-    font-family: 'Shrikhand';
+p{
+    color: gray;
+    
 }
-
+ .header__logo, .footer__header{
+    font-family: 'Shrikhand',sans-serif;
+}
+h1, h2, h3{
+    font-size: 18px;
+    font-weight:bolder;
+    font-family:'Roboto', sans-serif;
+}
 ::placeholder{
     letter-spacing: 1.5px;
     font-size: 14px;
     color:black;
     font-weight: 600;
 }
-h1{
-    justify-self: center;
-    text-align: center;            
-    padding: 19px;
-    
-}
-
-h2{
-    
-    font-size: 16px;
-    align-self: flex-start;
-}
 h3{
-    font-size: 14px;
+    font-size: 16px;
+    font-weight: bolder;
+    
 }
 
-img{
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 20px 20px 0 0;
-}
-// image de resterant//
-.head__img{
-    border-radius: 0;
-    height: 400px;
 
-}
 //******//
-
-.h1__resterant{  
-    width: 90%;
-    display: flex;  
-    flex-direction: row;
-    align-items: center;
+.entete{  
+    width: 100%;
+    @include horizontal-center;
     justify-content: space-between;
-    font-size: 10px;
+    background-color: $colour-smoke;
+ 
+    &__img{
+        
+        height: 250px;
+        border-radius: 0;
+    } 
+    &__titre{
+        width: 100%;
+        height: 60px;        
+        @include vertical-center;
+        justify-content: space-around;
+        background-color: $colour-smoke;
+        border-top: 1px solid black;
+        border-bottom: none;
+        border-radius: 50px 50px 0 0;    
+        position: relative;
+        z-index: 1;
+        margin-top: -50px;
+    }
+    &__h1{        
+        font-weight: 900; 
+        font-size: 25px;
+        font-family: 'Shrikhand',sans-serif;
+
+    }  
 }
 
 
 .trois-span{
-    align-self: flex-start;
-    padding-left: 35px;
+    align-self: flex-start;    
     text-transform:uppercase;
+     
     
-}
-.trois-span:hover::after{
+    &:hover::after{
     content: "";
-    display: block;
+    display: block;    
     width: 40px;
     height: 2px;
     background: $colour-accent 
+    }    
 }

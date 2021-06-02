@@ -1,8 +1,16 @@
+
+  
+
+
+
+@import "./pages/loader";
 @import "./utils/variables";
 @import "./utils/mixin";
 @import "./utils/fontions";
+@import "./pages/slider";
 @import "./base/base";
 @import "./base/typography";
+@import "./layouts/localise";
 @import "./layouts/header";
 @import "./layouts/form";
 @import "./layouts/menu";
@@ -13,7 +21,35 @@
 @import "./composents/button";
 @import "./composents/icones";
 @import "./composents/images";
-@import "./composents/label";
+
 @import "./layouts/footer";
 @import "./pages/media";
 
+.article-resterant{
+    
+    animation: defiler 3000ms linear;
+   
+
+}
+/*.rest1{
+    animation-delay:500ms;
+
+}
+.rest2{
+    animation-delay: 1000ms;
+
+}
+.rest3{
+    animation-delay: 1000ms;
+
+}*/
+
+@keyframes defiler{
+    0% {
+        transform: translateY(100%);
+        
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
