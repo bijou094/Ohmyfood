@@ -7,7 +7,8 @@
     font-size: 15px;
     
     
-    &:hover{        
+    &:hover{   
+        @include shadaw;     
         opacity: 0.5;
     }
 }
@@ -24,4 +25,10 @@
     padding: 12px;
     margin-top: 30px;
     margin-bottom: 30px;
+}
+.btn-direct{
+    border: none;
+    border-radius: none;
+    color: black;
+    background:transparent; 
 }
