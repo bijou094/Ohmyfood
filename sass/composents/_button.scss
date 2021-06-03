@@ -7,9 +7,9 @@
     font-size: 15px;
     
     
-    &:hover{   
-        @include shadaw;     
+    &:hover{              
         opacity: 0.5;
+        @include shadaw; 
     }
 }
 .btn-acceuil{
