@@ -69,7 +69,7 @@
     opacity: 1;
   }
 }
-.article__titre2:hover .article__slider {
+.article__titre2:active .article__slider {
   background-color: #99e2d0;
   width: 80px;
   height: 60px;
@@ -78,11 +78,11 @@
   border: 1px solid aqua;
   border-radius: 0 15px 15px 0;
   transform-origin: right;
-  animation: bilo 2000ms ease-in-out forwards;
+  animation: bilo 4000ms ease-in-out forwards;
   display: block;
   transition-delay: 500ms;
 }
-.article__titre2:hover .fa-check-circle {
+.article__titre2:active .fa-check-circle {
   text-align: center;
   margin-top: 25px;
   font-size: 25px;
@@ -92,10 +92,14 @@
   color: white;
   animation: flech 2000ms linear forwards;
 }
-.article__titre2:hover .article__p1 {
+.article__titre2:active .article__p1 {
+  width: 40%;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+}
+.article__titre2:active .article__p2 {
+  transform: translate(-10px);
 }
 
 @keyframes flech {
@@ -394,7 +398,7 @@ form {
 }
 
 .article {
-  width: 95%;
+  width: 90%;
   border-radius: 15px;
   background-color: snow;
   margin: 20px;
