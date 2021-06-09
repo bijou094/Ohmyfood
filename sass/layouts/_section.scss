@@ -1,22 +1,31 @@
+.section-acceuil{
+    width: 100%;   
+    @extend %horizontal-center;    
+    justify-content: space-between;    
+    background-color:$colour-smoke;    
+    &__titre{  
+        align-self: flex-start;
+        padding-left: 20px;
+        padding-top: 20px;
+        font-size:map-get($font-size, $key:h2 );       
+    }
+    &__menus{        
+        @extend %horizontal-center;    
+        justify-content: space-around;
+        @include tablette{
+            width: 100%;
+            height: 650px;
+            flex-wrap: wrap;
+        } 
+        @include desktop{
+            width: 100%; 
+            height: 80%;
+            flex-direction: row;          
+            flex-wrap: nowrap;
+            justify-content: space-evenly;
+        }        
 
-
-.section-accueil{
-    width: 100%; 
-    height: auto;   
-    @include horizontal-center;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
+    }
 }
 
-.section-resterant{
-    width: 100%; 
-    height: auto;   
-    @include horizontal-center;
-    justify-content: space-evenly;
-}
-
-
-
-
-
-
+ 

@@ -1,22 +1,8 @@
-.header{  
-    width: 100%;
-    @include vertical-center;  
-    justify-content: center;   
-    @include shadaw;
+.header{ 
+    @extend %vertical-center;  
+    justify-content: center;  
     &__logo{
-        justify-self: center;
-        width: 200px;
-        height: 30px;  
-        object-fit: fill; 
-        padding: 20px;    
-    }        
+        width: 150px;
+        height: 50px;        
+    }
 }
-// style hedear de la page resterant//
-.header{     
-    &__return{
-        justify-content: left ;
-        color: gray;
-        padding-right: 60px;
-        padding-left: 10px;
-    } 
-}  

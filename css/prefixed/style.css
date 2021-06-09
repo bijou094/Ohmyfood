@@ -143,8 +143,7 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  /*@mixin vertical-center; */
-}
+  }
 .header__logo {
   justify-self: center;
   width: 200px;
@@ -479,26 +478,7 @@ section {
   color: #9356DC;
 }
 
-/*.coeur-transpt{
-    color:linear-gradient($colour-secondary,$colour-primary);
-    visibility:visible;
-    font-size: 23px;
-    align-self: center;
-    .coeur-transpt:hover{
-        visibility: hidden;
-        font-size: 23px;
-    }
-}
-.coeur-colore{
-    color: $gradient;
-    visibility:hidden;
-    font-size: 0;
-    align-self: center;
-    .coeur-colore:hover{
-        visibility: visible;
-        font-size: 23px;
-    }
-}*/
+
 .fa-heart {
   color: #FF79DA;
   background-color: white;

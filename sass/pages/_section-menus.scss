@@ -1,0 +1,66 @@
+.trois{
+    width: 100%;
+    @extend %horizontal-center;
+    justify-content: space-evenly;
+    &:active{
+        animation: defiler 3000ms linear;}
+    @include tablette{  
+        width: 100%;
+        height: auto; 
+        display: flex;  
+        flex-direction: row;           
+        flex-wrap: wrap;
+        justify-content: space-around;       
+    } 
+   @include desktop{
+        width: 100%;
+        height: auto; 
+        display: flex;  
+        flex-direction: row;           
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+    }        
+
+    
+}
+.section-menus{
+    width: 90%;    
+    height: 280px;    
+    @extend %horizontal-center;
+    justify-content: space-around;    
+    @include tablette{ 
+        width:40%;
+    } 
+    
+    &__titre{
+        align-self: flex-start;
+        padding: 20px;
+        font-size: 16px;
+        font-weight: normal;
+        text-transform: uppercase;
+        
+        &::after{
+            content: "";
+            display: block;    
+            width: 60%;
+            height: 3px;
+            background: $colour-accent 
+        }    
+    } 
+
+}
+
+
+
+
+    .sect1{
+
+        animation-delay:0ms;}
+    .sect2{
+        animation-delay: 2000ms;}
+    .sect3{
+        animation-delay: 3000ms;}
+
+
+
+

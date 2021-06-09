@@ -1,13 +1,17 @@
-@mixin vertical-center {
-    display: flex; 
-    flex-direction: row;   
-    align-items: center;    
-}
-@mixin horizontal-center {
-    display: flex;
-    flex-direction: column;     
-    align-items:center;
-}
-@mixin shadaw{
-    box-shadow: 0px 1px 1px 1px #cdcdcd;
+/*@mixin localise-pading($top:$pading-top, $right:$pading-right, $bottom:$pading-right, $left:$pading-left) {
+    padding:$top $right $bottom $left   ;
+    
+}*/
+
+/*@mixin heading-bshadow($colour:$colour-gray, $shadow-size: $heading-shadow-size){
+  box-shadow: $shadow-size $shadow-size $shadow-size $colour;
+}*/
+
+@keyframes defiler{
+    0% {
+        transform: translateY(100%);        
+    }
+    100% {
+        transform: translateY(0%);
+    }
 }

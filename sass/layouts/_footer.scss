@@ -1,36 +1,44 @@
-.footer{ 
-    width: 100%;    
-    background-color:#363636;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start; 
-    padding: 20px;
-    
-    &__header{
 
-        padding-left: 10px;
-        font-size: 18px;
-        color: white;
-
+.footer{
+        width: 100%;    
+        background-color:$colour-fontfoo;
+        @extend %horizontal-start ;              
+        &__titre{    
+            font-size: 20px;
+            padding-left:20px;
+            padding-top: 20px;           
+            color: $colour-text-fonce;
+            @include desktop{
+                padding-left: 40px;
+            }
+        }         
+        &__ul{
+            padding: 15px;
+            @include desktop{        
+                width: 100%;
+                padding: 20px;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-evenly;
+            }
+                
+            
+        }
+        &__li{
+            margin: 10px 0 10px 0;            
+        }
+       &__a{
+        color: $colour-text-fonce;
+       }
     }
-     
-    &__ul{
-        padding-left: 10px;
-    }
-    &__li{
-        margin: 10px 0 10px 0;
-        list-style-type: none;
-    }
-    &__a{              
-        text-decoration: none;
-        color: white;
-    }
-}
-    
-
-
+        
     
     
-    
-    
-    
+        
+        
+        
+        
+        
+            
+        

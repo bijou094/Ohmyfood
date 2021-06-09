@@ -1,0 +1,20 @@
+.main{  
+    width: 100%;   
+    @extend %horizontal-center;
+    justify-content: space-evenly;
+    background-color:$colour-smoke;
+    margin-top: -60px;
+    border-radius: 50px 50px 0 0;    
+    position: relative;
+    z-index: 1;    
+    &__bar{
+        width: 85%;
+        @extend %vertical-center;
+        padding: 20px;
+        justify-content: space-between;      
+    }
+    &__titre{
+        font-size: 22px;
+        font-style: italic; 
+    }
+}

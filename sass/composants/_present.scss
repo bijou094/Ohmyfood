@@ -1,0 +1,19 @@
+.present{
+    width: 100%;
+    height: 250px;
+    background-color: $colour-smoke ;
+    text-align: center;
+    @extend %horizontal-center;
+    justify-content: center;
+    &__titre{
+        width: 70%;                
+        font-weight: 900; 
+        font-size: map-get($font-size, $key:h1 );
+        margin-bottom: 10px;
+    }
+}
+
+
+
+
+

@@ -1,0 +1,48 @@
+
+.article-acceuil{     
+    width: 85%;       
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px black;
+    margin: 20px;
+    &:hover{
+        z-index:1;
+        transform: scale(1.1);
+        transition: 0.2s;
+    } 
+    @include tablette{
+        width: 350px;
+    } 
+    @include desktop{
+        width: 40%;
+    }    
+    
+    &__flot{ 
+        position: relative;       
+        display: flex;
+        flex-direction: column;        
+    }
+    &__dimos{
+        width: 80px;    
+        padding: 10px;
+        font-weight: 900;
+        background-color:$colour-accent;
+        color:#2E8B57;
+        font-size: 16px;
+        position: absolute;
+        text-align: center;
+        top:10%;
+        right: 5%;
+        z-index: 1;
+    }
+    &__titre{
+        @extend %vertical-center;
+        justify-content: space-between;
+        margin: 15px;
+        
+    }
+}    
+    
+    
+
+
+

@@ -1,0 +1,13 @@
+.header-menus{ 
+    @extend %vertical-center;
+    justify-content: space-around;
+    height: 50px;  
+      
+    &__logo{
+        width: 120px;                
+        justify-self: center;        
+    }
+    &__return{       
+        justify-self: flex-start;
+    }
+}

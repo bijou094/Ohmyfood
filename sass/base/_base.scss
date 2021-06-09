@@ -1,4 +1,39 @@
-*{margin: 0;padding: 0;}
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
 
-body{box-sizing: border-box;}    
+    font-family: "roboto", sans-serif;
+    font-size:map-get($font-size, $key:body );
 
+    box-sizing: border-box;
+    color:$colout-text-clair;
+}
+h1, h2, h3 {    
+    font-weight: bolder;
+    font-family: "Roboto", sans-serif;
+  }
+
+a {
+    text-decoration: none;   
+    color: $colout-text-clair; 
+}
+li{
+    list-style-type: none;
+}
+p {
+    color: $colour-gray;
+    font-size: 18px;
+}
+  
+.header__logo, .footer__titre,.main__titre {
+    font-family: "Shrikhand", sans-serif;
+}  
+::placeholder {
+    color: $colout-text-clair;
+    letter-spacing: 1.5px;      
+    font-weight: 600;
+}

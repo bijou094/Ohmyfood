@@ -1,20 +1,22 @@
+$colout-text-clair:#000;
+$colour-text-fonce:#fff;
+$colour-gray:#727171;
 
 $colour-smoke:#EFEFEF;
+$colour-lavend:#e1e1e4;
+
 $colour-primary:#9356DC;
 $colour-secondary: #FF79DA;
 $colour-accent:#99e2d0;
-$gradient: linear-gradient($colour-secondary, $colour-primary);
-
-$colour-lavend:#e1e1e4;
-$b-radius: 20px; 
-$colour-Honey:#F5f5f5;
-$colour-gains : #DCDCDC;
-$colour-silver:#C0C0C0;
-$colour-black:#000000;
+$colour-loew:	#FF0000;
+$colour-noew:#0000FF;
+$colour-fontfoo:#363636;
 
 
-$colour-shaw:#708090;
+$heading-shadow-size: 0.55rem;
 
+$gradient-linear: linear-gradient($colour-secondary, $colour-primary);
+$gradient-rad:radial-gradient(closest-side, $colour-loew, $colour-noew);
 
-$direct:column;
-
+$border-btn:100em;
+$radu-nav: 50% ;

@@ -1,0 +1,83 @@
+
+.fa-list-ul, .fa-mobile-alt{
+    margin-left: 5px;
+    margin-right: 10px;
+    color:$colour-gray;
+}
+.fa-store{
+    margin-left: 5px;
+    margin-right: 5px;
+    color: $colour-primary;
+}
+.numero{    
+    border-radius:$radu-nav;
+    padding:8px 11px 8px 11px;
+    font-size: 10px;
+    background-color: $colour-primary;
+    margin-left:-35px;
+    margin-right: 10px;
+    text-align: center;
+    color:$colour-text-fonce;
+}
+
+.fa-heart { 
+    font-size: 23px;
+    align-self: center;
+    &:hover{
+        background-image:$gradient-linear;
+        color:transparent;
+        background-clip:text;
+        -webkit-background-clip: text;
+        font-weight: 900;
+        border:$colour-text-fonce;
+    }
+    
+}
+.fa-utensils{  
+    padding-right: 20px;
+    font-size:18 px;  
+    color: $colour-text-fonce;
+    
+    
+}
+.fa-hands-helping{  
+    padding-right: 14px;         
+    font-size:18 px;  
+    color:$colour-text-fonce;
+}
+
+// icone de la pages menus //
+
+.fa-map-marker-alt{    
+    font-weight: 900;
+    font-size: 18px;
+    
+}
+
+
+.fa-check-circle{       
+   
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+    border-radius: 50%;
+    background-color:$colour-accent;          
+    color:white;
+    opacity: 0;
+    transform:translateX(0) rotate(0);    
+    transition: all 2s linear infinity;    
+    
+}
+
+     
+
+
+
+
+
+
+
+
+
+
+

@@ -1,89 +1,30 @@
-
-  
-
-
-
-@import "./pages/loader";
 @import "./utils/variables";
+@import "./utils/lists";
+@import "./utils/placeholder";
 @import "./utils/mixin";
-@import "./utils/fontions";
-@import "./pages/slider";
+@import "./base/responsive";
+@import "./layouts/loader";
 @import "./base/base";
 @import "./base/typography";
-@import "./layouts/localise";
+
+@import "./composants/img";
 @import "./layouts/header";
-@import "./layouts/form";
-@import "./layouts/menu";
-@import "./composents/nav";
-@import "./layouts/main";
+@import "./layouts/from";
+@import "./composants/localise";
+@import "./composants/present";
+@import "./composants/icones";
+@import "./composants/button";
+@import "./composants/nav";
 @import "./layouts/section";
-@import "./composents/article";
-@import "./composents/button";
-@import "./composents/icones";
-@import "./composents/images";
-
+@import "./composants/articles";
 @import "./layouts/footer";
-@import "./pages/media";
-.article__flot{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-}
-.dimos{
-   width: 80px;    
-   padding: 10px;
-   font-weight: 900;
-   background-color:$colour-accent;
-   color:#2E8B57;
-   font-size: 16px;
-   position: absolute;
-   text-align: center;
-   top:10%;
-   right: 5%;
-   z-index: 1;
-   
 
-}  
+// style des pages menus//
+@import "./pages/header-menus";
+@import "./pages/main-menus";
+@import "./pages/section-menus";
+@import "./pages/article-menus";
+//******************//
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-.article-resterant{
-    
-    animation: defiler 3000ms linear;
-   
-
-}
-/*.rest1{
-    animation-delay:500ms;
-
-}
-.rest2{
-    animation-delay: 1000ms;
-
-}
-.rest3{
-    animation-delay: 1000ms;
-
-}*/
-
-@keyframes defiler{
-    0% {
-        transform: translateY(100%);
-        
-    }
-    100% {
-        transform: translateY(0%);
-    }
-}

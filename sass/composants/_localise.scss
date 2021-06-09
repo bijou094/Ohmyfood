@@ -1,0 +1,21 @@
+.localise{
+    width: 100%;
+    text-align: center;
+    background-color:$colour-lavend;
+
+    padding: 15px 0 15px 0;     
+    box-shadow: -2px -1px 4px 0px $colour-gray;  
+
+    &__label{
+        font-size: 18px;         
+        margin-right: 10px; 
+    }
+    &__input{
+        width: 200px;     
+        border: none;  
+        align-self: center;      
+        background-color:$colour-lavend;
+    }
+}
+
+

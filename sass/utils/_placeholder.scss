@@ -1,0 +1,16 @@
+%horizontal-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+%vertical-center{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+%horizontal-start{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
