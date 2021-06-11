@@ -1,0 +1,4 @@
+@if lightness($colour-secondary)>25% {
+    $background:lighten($colour-secondary,20%)
+        
+}

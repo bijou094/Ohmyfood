@@ -6,7 +6,7 @@ $colour-smoke:#EFEFEF;
 $colour-lavend:#e1e1e4;
 
 $colour-primary:#9356DC;
-$colour-secondary: #FF79DA;
+$colour-secondary: rgba(255,121, 218);	
 $colour-accent:#99e2d0;
 $colour-loew:	#FF0000;
 $colour-noew:#0000FF;
@@ -20,3 +20,4 @@ $gradient-rad:radial-gradient(closest-side, $colour-loew, $colour-noew);
 
 $border-btn:100em;
 $radu-nav: 50% ;
+$background:$colour-secondary;
