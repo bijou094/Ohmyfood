@@ -5,9 +5,7 @@
     box-shadow: 2px 2px 3px 3px $colour-lavend; 
     margin: 20px;
     &:hover{
-        z-index:1;
-        transform: scale(1.1);
-        transition: 0.2s;
+        @include anime;
     } 
     @include tablette{
         width: 350px;
@@ -26,8 +24,7 @@
         padding: 10px;
         font-weight: 900;
         background-color:$colour-accent;
-        color:#2E8B57;
-        font-size: 16px;
+        color:$colour-flot;        
         position: absolute;
         text-align: center;
         top:10%;
@@ -37,8 +34,7 @@
     &__titre{
         @extend %vertical-center;
         justify-content: space-between;
-        margin: 15px;
-        
+        margin: 15px;        
     }
 }    
     

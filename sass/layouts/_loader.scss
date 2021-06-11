@@ -24,7 +24,7 @@
         }
     }
     &__titre{
-        font-size: 26px;
+        font-size: nth($font-size, 4);
         color: $colour-text-fonce;
     }
   

@@ -4,7 +4,7 @@
         background-color:$colour-fontfoo;
         @extend %horizontal-start ;              
         &__titre{    
-            font-size: 20px;
+            font-size: nth($font-size, 3);
             padding-left:20px;
             padding-top: 20px;           
             color: $colour-text-fonce;
@@ -21,9 +21,7 @@
                 flex-direction: row;
                 align-items: center;
                 justify-content: space-evenly;
-            }
-                
-            
+            }           
         }
         &__li{
             margin: 10px 0 10px 0;            

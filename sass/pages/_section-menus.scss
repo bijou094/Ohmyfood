@@ -1,8 +1,7 @@
 .trois{
     width: 100%;
     @extend %horizontal-center;
-    justify-content: space-evenly;    
-
+    justify-content: space-evenly;  
     @include tablette{  
         width: 100%;
         height: auto; 
@@ -34,7 +33,7 @@
     &__titre{
         align-self: flex-start;
         padding: 20px;
-        font-size: 16px;
+        font-size:nth($font-size, 1);
         font-weight: normal;
         text-transform: uppercase;
         

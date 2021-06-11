@@ -7,7 +7,7 @@
         align-self: flex-start;
         padding-left: 20px;
         padding-top: 20px;
-        font-size:map-get($font-size, $key:h2 );       
+        font-size: nth($font-size, 3);       
     }
     &__menus{        
         @extend %horizontal-center;    

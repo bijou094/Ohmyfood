@@ -4,12 +4,12 @@
 .article-menus:active{                
     .article-menus__slider{              
         background-color:$colour-accent;    
-       width: 80px;
+        width: 80px;
         height: 60px;
         margin-right: -80px;
         position:relative ;    
         text-align:center;
-        border: 1px solid aqua;
+        border: 1px solid $colour-accent;
         border-radius:0 15px 15px 0 ;
         transform-origin: right;       
         transition-delay: 500ms;
@@ -36,7 +36,6 @@
     
     @include desktop{
         .article-menus:hover{ 
-
             .article-menus__slider{
                 transition-delay: 500ms;
                 transform:translate(-80px);
