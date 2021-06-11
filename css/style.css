@@ -225,7 +225,8 @@ form {
   align-self: center;
   color: #000;
   z-index: 1;
-  transition: background-image linear 3s;
+  transition: all 200ms linear;
+  /*background-image linear 3s;*/
 }
 .fa-heart:active {
   background-image: linear-gradient(#ff79da, #9356DC);
