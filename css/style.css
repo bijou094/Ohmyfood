@@ -1,4 +1,3 @@
-@charset "UTF-8";
 .section-menus, .trois, .main, .section-acceuil__menus, .section-acceuil, .nav__ul, .nav, .present, form, .loader {
   display: flex;
   flex-direction: column;
@@ -17,21 +16,6 @@
   align-items: flex-start;
 }
 
-/*@mixin localise-pading($top:$pading-top, $right:$pading-right, $bottom:$pading-right, $left:$pading-left) {
-    padding:$top $right $bottom $left   ;
-
-}*/
-/*@mixin heading-bshadow($colour:$colour-gray, $shadow-size: $heading-shadow-size){
-  box-shadow: $shadow-size $shadow-size $shadow-size $colour;
-}*/
-@keyframes defiler {
-  0% {
-    transform: translateY(100%);
-  }
-  100% {
-    transform: translateY(0%);
-  }
-}
 .loader {
   background: radial-gradient(closest-side, #FF0000, #0000FF);
   justify-content: center;
