@@ -5,10 +5,8 @@
 body {
     margin: 0;
     padding: 0;
-
     font-family: "roboto", sans-serif;
     font-size:map-get($font-size, $key:body );
-
     box-sizing: border-box;
     color:$colout-text-clair;
 }

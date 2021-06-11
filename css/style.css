@@ -291,14 +291,6 @@ form {
   box-shadow: 0px 2px 6px 1px #727171;
 }
 
-.btn_coeur {
-  padding: 0;
-  border: none;
-  border-radius: none;
-  color: transparent;
-  background: transparent;
-}
-
 .btn--commande {
   padding: 13px;
   width: 180px;
@@ -355,7 +347,7 @@ form {
 }
 
 .store {
-  background: #ff79da;
+  background: #ffdff6;
 }
 
 .section-acceuil {
