@@ -12,7 +12,7 @@
 .numero{    
     border-radius:$radu-nav;
     padding:8px 11px 8px 11px;
-    font-size: 10px;
+    font-size:nth($font-size, 5);
     background-color: $colour-primary;
     margin-left:-35px;
     margin-right: 10px;
@@ -21,7 +21,7 @@
 }
 
 .fa-heart { 
-    font-size: 23px;
+    font-size:nth($font-size, 4);
     align-self: center;
     color:$colout-text-clair;   
     z-index: 1;
@@ -47,14 +47,14 @@
 }
 .fa-utensils{  
     padding-right: 20px;
-    font-size:18 px;  
+    font-size:nth($font-size, 2); 
     color: $colour-text-fonce;
     
     
 }
 .fa-hands-helping{  
     padding-right: 14px;         
-    font-size:18 px;  
+    font-size:nth($font-size, 2);  
     color:$colour-text-fonce;
 }
 
@@ -62,25 +62,21 @@
 
 .fa-map-marker-alt{    
     font-weight: 900;
-    font-size: 18px;
+    font-size:nth($font-size, 2);
     
 }
 
 
-.fa-check-circle{     
-   
+.fa-check-circle{  
     text-align: center;
     margin-top: 15px;   
-    font-size: 25px;
+    font-size:nth($font-size, 4);
     border-radius: 50%;
     background-color:$colour-accent;          
     color:white;
     transform:translateX(0) rotate(0);
     opacity: 0;
-    transition: transform 2s linear;
-    /*opacity: 0;
-    transform:translateX(0) rotate(0);    
-    transition: all 2s linear infinity;  */  
+    transition: transform 2s linear;   
     
 }
 
