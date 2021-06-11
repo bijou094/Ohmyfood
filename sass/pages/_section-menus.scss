@@ -1,9 +1,8 @@
 .trois{
     width: 100%;
     @extend %horizontal-center;
-    justify-content: space-evenly;
-    &:active{
-        animation: defiler 3000ms linear;}
+    justify-content: space-evenly;    
+
     @include tablette{  
         width: 100%;
         height: auto; 
@@ -27,11 +26,11 @@
     width: 90%;    
     height: 280px;    
     @extend %horizontal-center;
-    justify-content: space-around;    
+    justify-content: space-around;
+    animation: defiler 3000ms linear;       
     @include tablette{ 
         width:40%;
-    } 
-    
+    }     
     &__titre{
         align-self: flex-start;
         padding: 20px;
@@ -48,19 +47,15 @@
         }    
     } 
 
-}
+}    
 
 
-
-
-    .sect1{
-
-        animation-delay:0ms;}
-    .sect2{
-        animation-delay: 2000ms;}
-    .sect3{
-        animation-delay: 3000ms;}
-
-
-
+    @keyframes defiler{
+        0% {
+            transform: translateY(100%);        
+        }
+        100% {
+            transform: translateY(0%);
+        }
+    }
 

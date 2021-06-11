@@ -20,7 +20,7 @@
        font-size: 16px;
     } 
     
-    &__slider{
+   /* &__slider{
         text-align:center;   
         background-color: $colour-accent;
         border-radius:15px 0px 0px 15px ;
@@ -28,36 +28,9 @@
         opacity: 0;     
         transform: scaleX(0px) ;
         transition: all 2s linear infinity;   
-    }
+    }*/
 }
-strong{
+/*strong{
     transform: translateX(0px) ;
     transition: all 2s linear;  
-}
-.article-menus:hover{
-     
-    .article-menus__slider{
-        width: 80px;
-        opacity: 1;
-        transform: scaleX(100%) ;
-        transition: all 2s linear; 
-    }
-    .fa-check-circle{
-        opacity: 1;
-        transform:translateX(-10%) rotate(1turn);        
-        transition: all 2s linear;
-    } 
-    
-   
-    .article-menus__p1{   
-        width: 60%;    
-        text-overflow: ellipsis;
-        white-space: nowrap;
-        overflow: hidden;
-    } 
-    strong{
-        
-        transition: margin-right 2s ;  
-    }
-} 
-   
+}*/

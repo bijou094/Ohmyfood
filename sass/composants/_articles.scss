@@ -2,7 +2,7 @@
 .article-acceuil{     
     width: 85%;       
     border-radius: 15px;
-    box-shadow: 2px 2px 2px 2px black;
+    box-shadow: 2px 2px 3px 3px $colour-lavend; 
     margin: 20px;
     &:hover{
         z-index:1;

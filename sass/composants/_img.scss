@@ -3,18 +3,19 @@ img{
     object-fit: cover;    
 }
 
-// image svg du header
+
 // images des cartes de menu
 .img--carte{
     border-radius: 15px 15px 0 0;  
-    height: 200px;
+    height: 200px;    
 }
-
-
-
-
 
 .img--menus{
     height: 300px;
-
+    @include tablette {
+        height: 450px;
+    }
+    @include desktop {
+        height:550px;
+    }
 }

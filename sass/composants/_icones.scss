@@ -23,7 +23,10 @@
 .fa-heart { 
     font-size: 23px;
     align-self: center;
-    &:hover{
+    color:$colout-text-clair;   
+    z-index: 1;
+    transition: background-image linear 3s;
+    &:active{
         background-image:$gradient-linear;
         color:transparent;
         background-clip:text;
@@ -31,6 +34,15 @@
         font-weight: 900;
         border:$colour-text-fonce;
     }
+    @include desktop{
+        &:hover{
+        background-image:$gradient-linear;
+        color:transparent;
+        background-clip:text;
+        -webkit-background-clip: text;
+        font-weight: 900;
+        border:$colour-text-fonce;}
+    }    
     
 }
 .fa-utensils{  
@@ -55,17 +67,20 @@
 }
 
 
-.fa-check-circle{       
+.fa-check-circle{     
    
     text-align: center;
-    margin-top: 20px;
+    margin-top: 15px;   
     font-size: 25px;
     border-radius: 50%;
     background-color:$colour-accent;          
     color:white;
+    transform:translateX(0) rotate(0);
     opacity: 0;
+    transition: transform 2s linear;
+    /*opacity: 0;
     transform:translateX(0) rotate(0);    
-    transition: all 2s linear infinity;    
+    transition: all 2s linear infinity;  */  
     
 }
 
