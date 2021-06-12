@@ -35,7 +35,7 @@
         height: 60px;
         position:relative ;    
         text-align:center;
-        border: 1px solid aqua;
+        border: 1px solid $colour-accent;
         border-radius: 0px 15px 15px 0px;
         transform-origin: right;         
         transition-delay: 500ms;
@@ -77,8 +77,7 @@
         } 
         strong{
             transform: translate(-20px);
-            /*transform: translate(60px);
-            transition: transform 1s linear;*/
+            
         }
     }
     @include desktop{
@@ -106,7 +105,4 @@
     
     
 } 
-/*transition: width 1s linear;               
-text-overflow: ellipsis;
-white-space: nowrap;
-overflow: hidden; */
+       
