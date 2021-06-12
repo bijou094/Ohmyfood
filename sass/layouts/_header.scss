@@ -1,6 +1,7 @@
 .header{ 
     @extend %vertical-center;  
-    justify-content: center;  
+    justify-content: center;
+    padding-top: 20px;  
     &__logo{
         width: 150px;
         height: 50px;        

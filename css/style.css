@@ -28,7 +28,7 @@
   animation: deroule 3000ms linear forwards;
 }
 .loader__quart {
-  border-radius: 50px;
+  border-radius: 100%;
   border: 6px solid rgba(255, 255, 255, 0.4);
   text-align: center;
 }
@@ -39,12 +39,13 @@
   left: -6px;
   bottom: 6px;
   right: 6px;
-  width: 50px;
-  height: 50px;
-  border-radius: 50px;
+  width: 80px;
+  height: 80px;
+  padding: 0;
+  border-radius: 100%;
   border: 6px solid transparent;
   border-top-color: #fff;
-  animation: spin 450ms linear forwards;
+  animation: spin 2000ms linear infinite;
   margin: auto;
 }
 .loader__titre {
@@ -53,11 +54,10 @@
 }
 
 .contener {
-  width: 100%;
-  height: 100%;
-  transform-origin: top;
-  animation: bill 2000ms linear forwards;
-  transition-delay: 0, 2000ms;
+  height: auto;
+  width: auto;
+  transform-origin: bottom;
+  animation: bill 3000ms linear forwards;
 }
 
 @keyframes spin {
@@ -79,7 +79,7 @@
 @keyframes bill {
   0% {
     transform: translateY(100%);
-    opacity: 0;
+    opacity: 1;
   }
   100% {
     transform: translateY(0%);
@@ -155,6 +155,7 @@ img {
 
 .header {
   justify-content: center;
+  padding-top: 20px;
 }
 .header__logo {
   width: 150px;
@@ -512,7 +513,7 @@ form {
 }
 
 .section-menus {
-  width: 90%;
+  width: 100%;
   height: 280px;
   justify-content: space-around;
   animation: defiler 1000ms linear;
@@ -551,7 +552,7 @@ form {
   }
 }
 .article-menus {
-  width: 90%;
+  width: 100%;
   height: 60px;
   position: relative;
   justify-content: space-between;
@@ -572,7 +573,7 @@ form {
 
 .article-menus {
   overflow: hidden;
-  width: 90%;
+  width: 95%;
   height: 60px;
   position: relative;
   justify-content: space-between;
@@ -595,12 +596,7 @@ form {
   padding: 10px;
 }
 .article-menus__p1 {
-  font-size: 16px;
-}
-@media (min-width: 992px) {
-  .article-menus__p1 {
-    font-size: 14px;
-  }
+  font-size: 14px;
 }
 .article-menus__titre {
   font-size: 16px;

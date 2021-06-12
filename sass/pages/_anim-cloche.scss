@@ -1,6 +1,6 @@
 .article-menus{  
     overflow: hidden;   
-    width: 90%; 
+    width: 95%; 
     height: 60px;    
     position: relative;  
     @extend %vertical-center;
@@ -20,10 +20,8 @@
         padding: 10px;
     }
     &__p1{        
-        font-size: nth($font-size, 1);
-        @include desktop{
-            font-size: nth($font-size, 6); 
-        }
+        font-size: nth($font-size, 6);
+        
     }
     &__titre{
         font-size: nth($font-size, 1);

@@ -14,7 +14,6 @@
         @include tablette{
             align-self: center;
         } 
-
     }
     &__ul{
         width: 100%;
@@ -32,8 +31,10 @@
         border-radius: 15px;
         background-color:$colour-smoke;
         &:hover{
-            @include anime;
-        } 
+            z-index:1;
+            transform: scale(1.1);
+            transition: 0.2s;
+        }        
     } 
     &__a{        
         margin-left: 5px;
@@ -42,6 +43,6 @@
 }
 
 .store{
- background: $background;
+    background: $background;    
  
 }
