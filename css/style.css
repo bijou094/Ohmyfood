@@ -1,10 +1,10 @@
-.section-menus, .trois, .main, .section-acceuil__menus, .section-acceuil, .nav__ul, .nav, .present, form, .loader {
+.section-menus, .trois, .main, .section-acceuil__menus, .section-acceuil, .nav__ul, .nav, .present, form {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.article-menus__blok, .article-menus, .main__bar, .header-menus, .article-acceuil__titre, .header {
+.article-menus__blok, .article-menus, .main__bar, .header-menus, .article-acceuil__titre, .header, .loader {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -19,37 +19,41 @@
 .loader {
   background: radial-gradient(closest-side, #FF0000, #0000FF);
   justify-content: center;
-  position: absolute;
+  height: 100%;
+  width: 100%;
   top: 0;
+  left: 0;
   bottom: 0;
   right: 0;
-  left: 0;
-  margin: auto;
+  position: absolute;
+  vertical-align: middle;
   animation: deroule 3000ms linear forwards;
 }
 .loader__quart {
   border-radius: 100%;
   border: 6px solid rgba(255, 255, 255, 0.4);
-  text-align: center;
+  position: relative;
+  width: 80px;
+  height: 80px;
 }
 .loader__quart::after {
   content: "";
   position: absolute;
-  top: -6px;
-  left: -6px;
-  bottom: 6px;
-  right: 6px;
   width: 80px;
   height: 80px;
-  padding: 0;
+  top: -6px;
+  left: -6px;
+  bottom: -6px;
+  right: -6px;
   border-radius: 100%;
   border: 6px solid transparent;
   border-top-color: #fff;
-  animation: spin 2000ms linear infinite;
+  animation: spin 5000ms linear infinite;
   margin: auto;
 }
 .loader__titre {
-  font-size: 25px;
+  margin-left: 20px;
+  font-size: 30px;
   color: #fff;
 }
 
@@ -226,7 +230,7 @@ form {
   align-self: center;
   color: #000;
   z-index: 1;
-  transition: all 200ms linear;
+  transition: all 500ms linear;
   /*background-image linear 3s;*/
 }
 .fa-heart:active {
