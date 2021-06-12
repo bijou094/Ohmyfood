@@ -76,8 +76,9 @@
                   
         } 
         strong{
-            transform: translate(60px);
-            transition: transform 1s linear;
+            transform: translate(-20px);
+            /*transform: translate(60px);
+            transition: transform 1s linear;*/
         }
     }
     @include desktop{
@@ -97,6 +98,7 @@
                 
             } 
             strong{
+                
                 transform: translate(-20px);
             }
         }

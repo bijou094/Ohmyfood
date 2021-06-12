@@ -651,8 +651,9 @@ form {
   overflow: hidden;
 }
 .article-menus:active strong {
-  transform: translate(60px);
-  transition: transform 1s linear;
+  transform: translate(-20px);
+  /*transform: translate(60px);
+  transition: transform 1s linear;*/
 }
 @media (min-width: 992px) {
   .article-menus:hover .article-menus__slider {
