@@ -5,7 +5,8 @@
     @extend %vertical-center;
     justify-content: space-between;
     background-color:$colour-text-fonce;     
-    border-radius:  1em;     
+    border-radius:  1em;   
+    
     &__blok{
         width: 100%;        
         @extend %vertical-center;

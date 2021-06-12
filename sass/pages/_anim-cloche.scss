@@ -1,43 +1,48 @@
 .article-menus{  
-    overflow: hidden;
+    overflow: hidden;   
     width: 90%; 
     height: 60px;    
     position: relative;  
     @extend %vertical-center;
     justify-content: space-between;
     background-color:$colour-text-fonce;     
-    border-radius:  1em;     
+    border-radius:  1em;   
+    @include tablette{
+        width: 100%; 
+    }  
+    @include desktop{
+        width: 98%; 
+    }
     &__blok{
         width: 100%;        
         @extend %vertical-center;
         justify-content: space-between;
         padding: 10px;
     }
-    &__p1{
+    &__p1{        
         font-size: nth($font-size, 1);
+        @include desktop{
+            font-size: nth($font-size, 6); 
+        }
     }
-    
     &__titre{
         font-size: nth($font-size, 1);
     } 
-    
 }
 
 .article-menus {
-      
-    .article-menus__slider{
-    background-color:$colour-accent;    
-    width: 80px; 
-    height: 60px;
-    position:relative ;    
-    text-align:center;
-    border: 1px solid aqua;
-    border-radius: 0px 15px 15px 0px;
-    transform-origin: right; 
-    display: block;
-    transition-delay: 500ms;
-    transform:translate(80px);
-    transition: transform 2s linear;    
+    .article-menus__slider{        
+        background-color:$colour-accent;    
+        width: 80px; 
+        height: 60px;
+        position:relative ;    
+        text-align:center;
+        border: 1px solid aqua;
+        border-radius: 0px 15px 15px 0px;
+        transform-origin: right;         
+        transition-delay: 500ms;
+        transform:translate(80px);
+        transition: transform 1s linear;    
     }
     .fa-check-circle{           
         text-align: center;
@@ -45,21 +50,17 @@
         font-size: 25px;
         border-radius: 50%;
         background-color:$colour-accent;        
-        color: white;        
+        color: $colour-text-fonce;        
         transform:translateX(0) rotate(0);
         opacity: 1;
-        transition: transform 2s linear;
+        transition: transform 1s linear;
     }     
     .article-menus__p1{   
-        width:100%;
-        transition: width 2s linear;                  
-        text-overflow: ellipsis;
-        white-space: nowrap;
-        overflow: hidden;   
+        width: 100%;
     } 
     strong{
         transform: translate(60px);
-        transition: transform 2s linear;      
+        transition: transform 1s linear;      
     }   
     &:active{
         .article-menus__slider{
@@ -69,15 +70,16 @@
             transform:translate(-10%) rotate(1turn);
         }         
         .article-menus__p1{   
-            width:100%;
-                        
-            text-overflow: ellipsis;overflow: hidden; 
+            width: 60%;            
+            transition: width 1s linear;              
+            text-overflow: ellipsis;
             white-space: nowrap;
+            overflow: hidden;     
                   
         } 
         strong{
             transform: translate(60px);
-            transition: transform 2s linear;
+            transition: transform 1s linear;
         }
     }
     @include desktop{
@@ -86,11 +88,11 @@
                 transform:translate(0px);        
             }
             .fa-check-circle{
-                transform:translate(-10%) rotate(2turn);
+                transform:translate(-10%) rotate(1turn);
             }         
             .article-menus__p1{   
-            width: 80%; 
-            transition: width 2s linear;              
+            width: 60%; 
+            transition: width 1s linear;              
             text-overflow: ellipsis;
             white-space: nowrap;
             overflow: hidden;     
@@ -104,4 +106,7 @@
     
     
 } 
-   
+/*transition: width 1s linear;               
+text-overflow: ellipsis;
+white-space: nowrap;
+overflow: hidden; */

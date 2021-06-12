@@ -26,9 +26,14 @@
     height: 280px;    
     @extend %horizontal-center;
     justify-content: space-around;
-    animation: defiler 3000ms linear;       
+    animation: defiler 1000ms linear;       
     @include tablette{ 
-        width:40%;
+        width:48%;
+        
+    }  
+    @include desktop{ 
+        width:33%;
+        
     }     
     &__titre{
         align-self: flex-start;

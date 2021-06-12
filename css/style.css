@@ -515,11 +515,16 @@ form {
   width: 90%;
   height: 280px;
   justify-content: space-around;
-  animation: defiler 3000ms linear;
+  animation: defiler 1000ms linear;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .section-menus {
-    width: 40%;
+    width: 48%;
+  }
+}
+@media (min-width: 992px) {
+  .section-menus {
+    width: 33%;
   }
 }
 .section-menus__titre {
@@ -574,6 +579,16 @@ form {
   background-color: #fff;
   border-radius: 1em;
 }
+@media (min-width: 768px) and (max-width: 991px) {
+  .article-menus {
+    width: 100%;
+  }
+}
+@media (min-width: 992px) {
+  .article-menus {
+    width: 98%;
+  }
+}
 .article-menus__blok {
   width: 100%;
   justify-content: space-between;
@@ -581,6 +596,11 @@ form {
 }
 .article-menus__p1 {
   font-size: 16px;
+}
+@media (min-width: 992px) {
+  .article-menus__p1 {
+    font-size: 14px;
+  }
 }
 .article-menus__titre {
   font-size: 16px;
@@ -595,10 +615,9 @@ form {
   border: 1px solid aqua;
   border-radius: 0px 15px 15px 0px;
   transform-origin: right;
-  display: block;
   transition-delay: 500ms;
   transform: translate(80px);
-  transition: transform 2s linear;
+  transition: transform 1s linear;
 }
 .article-menus .fa-check-circle {
   text-align: center;
@@ -606,21 +625,17 @@ form {
   font-size: 25px;
   border-radius: 50%;
   background-color: #99e2d0;
-  color: white;
+  color: #fff;
   transform: translateX(0) rotate(0);
   opacity: 1;
-  transition: transform 2s linear;
+  transition: transform 1s linear;
 }
 .article-menus .article-menus__p1 {
   width: 100%;
-  transition: width 2s linear;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
 }
 .article-menus strong {
   transform: translate(60px);
-  transition: transform 2s linear;
+  transition: transform 1s linear;
 }
 .article-menus:active .article-menus__slider {
   transform: translate(0px);
@@ -629,25 +644,26 @@ form {
   transform: translate(-10%) rotate(1turn);
 }
 .article-menus:active .article-menus__p1 {
-  width: 100%;
+  width: 60%;
+  transition: width 1s linear;
   text-overflow: ellipsis;
-  overflow: hidden;
   white-space: nowrap;
+  overflow: hidden;
 }
 .article-menus:active strong {
   transform: translate(60px);
-  transition: transform 2s linear;
+  transition: transform 1s linear;
 }
 @media (min-width: 992px) {
   .article-menus:hover .article-menus__slider {
     transform: translate(0px);
   }
   .article-menus:hover .fa-check-circle {
-    transform: translate(-10%) rotate(2turn);
+    transform: translate(-10%) rotate(1turn);
   }
   .article-menus:hover .article-menus__p1 {
-    width: 80%;
-    transition: width 2s linear;
+    width: 60%;
+    transition: width 1s linear;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
@@ -656,5 +672,10 @@ form {
     transform: translate(-20px);
   }
 }
+
+/*transition: width 1s linear;               
+text-overflow: ellipsis;
+white-space: nowrap;
+overflow: hidden; */
 
 /*# sourceMappingURL=style.css.map */
