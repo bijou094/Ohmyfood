@@ -25,12 +25,10 @@
     align-self: center;
     color:$colout-text-clair;   
     z-index: 1;
-    transition:all 500ms linear; /*background-image linear 3s;*/
+    transition:all 500ms linear; 
     &:active{
-        background-image:$gradient-linear;
+        background-image:$gradient-linear;        
         color:transparent;
-        background-clip:text;
-        -webkit-background-clip: text;
         font-weight: 900;
         border:$colour-text-fonce;
     }

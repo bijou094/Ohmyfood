@@ -29,11 +29,9 @@
     animation: defiler 1000ms linear;       
     @include tablette{ 
         width:48%;
-        
     }  
     @include desktop{ 
         width:33%;
-        
     }     
     &__titre{
         align-self: flex-start;
@@ -50,10 +48,7 @@
             background: $colour-accent 
         }    
     } 
-
-}    
-
-
+} 
     @keyframes defiler{
         0% {
             transform: translateY(100%);        
