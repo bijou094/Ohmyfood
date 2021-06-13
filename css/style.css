@@ -234,6 +234,8 @@ img {
 }
 .fa-heart:active {
   background-image: linear-gradient(#ff79da, #9356DC);
+  background-clip: text;
+  -webkit-background-clip: text;
   color: transparent;
   font-weight: 900;
   border: #fff;
